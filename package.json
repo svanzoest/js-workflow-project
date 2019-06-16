@@ -1,0 +1,13 @@
+{
+  "name": "@sddevops/js-workflow-project",
+  "version": "0.1.0",
+  "description": "JavaScript Workflow Project",
+  "main": "index.js",
+  "repository": "git@github.com:svanzoest/js-workflow-project.git",
+  "author": "Sander van Zoest <sander@sddevops.org>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "reveal.js": "^3.8.0"
+  }
+}
