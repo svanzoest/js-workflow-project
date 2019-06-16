@@ -4,15 +4,18 @@
   "description": "JavaScript Workflow Project",
   "main": "index.js",
   "repository": "git@github.com:svanzoest/js-workflow-project.git",
+  "homepage": "https://svanzoest.github.io/js-workflow-project/",
   "author": "Sander van Zoest <sander@sddevops.org>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx"
+    "build": "mdx-deck build deck.mdx",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {},
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "mdx-deck": "^2.3.2"
   }
 }
