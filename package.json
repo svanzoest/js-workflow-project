@@ -10,6 +10,7 @@
   "main": "index.js",
   "scripts": {
     "build": "mdx-deck build slides/deck.js",
+    "postbuild": "echo 'js-workflow-project.sddevops.org' > dist/CNAME",
     "deploy": "gh-pages -d dist",
     "format:pkg": "format-package -w",
     "format:pretty": "prettier --write **/*.{mdx,js}",
