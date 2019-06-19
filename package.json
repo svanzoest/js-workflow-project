@@ -9,8 +9,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "mdx-deck deck.js",
-    "build": "mdx-deck build deck.js",
+    "start": "mdx-deck slides/deck.js",
+    "build": "mdx-deck build slides/deck.js",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {},
