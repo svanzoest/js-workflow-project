@@ -1,4 +1,39 @@
 ## Linting
 
+Tools to help you focus on writing code and nearly forget about style.
+
 - prettier.io
 - eslint
+- .editorconfig
+
+---
+
+### .editorconfig
+
+```
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+charset = utf-8
+```
+
+---
+
+### prettier
+
+Shared Config
+
+- on [github](https://github.com/SwitchCaseGroup/switchcase-prettier-config)
+- on [npm](https://www.npmjs.com/package/@switchcase/prettier-config)
+
+package.json
+
+```
+"prettier": "@switchcase/prettier-config",
+```

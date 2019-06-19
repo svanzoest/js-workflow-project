@@ -1,11 +1,7 @@
-
 import dark from "@mdx-deck/themes/dark";
-import highlight from "@mdx-deck/themes/syntax-highlighter"
+import highlight from "@mdx-deck/themes/syntax-highlighter";
 
-export const themes = [
-  dark,
-  highlight
-]
+export const themes = [dark, highlight];
 
 import { slides as begin } from "./begin.mdx";
 import { slides as ide } from "./ide.mdx";
