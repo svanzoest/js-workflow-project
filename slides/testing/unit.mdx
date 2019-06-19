@@ -1,3 +1,25 @@
 ## Unit Testing
 
-- jest
+### jest
+
+https://jestjs.io/
+
+- jasmine based matchers
+- auto mocking
+- isolated tests
+- rich context upon failure
+
+---
+### jest
+
+It has snapshoting
+
+```javascript
+describe('when I get a user', () => {
+  let client = new client();
+  let json = client.getUser(userId)
+  it('should return successful', () => {
+    expect(json).toMatchSnapshot();
+  })
+})
+```
