@@ -1,3 +1,27 @@
+import { Notes } from 'mdx-deck'
+
 ## Publishing
 
-- npm packages
+----
+
+`[ci skip]`
+
+```bash
+yarn install --frozen-lockfile
+```
+
+```bash
+yarn config set version-git-message "{COMMIT_PREFIX} %s"
+yarn version --patch
+git push --follow-tags origin HEAD:{BRANCH}
+```
+
+```bash
+yarn publish --tag dev
+```
+
+<Notes>
+
+`semver` npm package
+</Notes>
+
