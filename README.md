@@ -1,3 +1,3 @@
 # js-workflow-project
 
-See https://js-workflow-project.sddevops.org/
+See http://js-workflow-project.sddevops.org/
