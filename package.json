@@ -2,20 +2,25 @@
   "name": "@sddevops/js-workflow-project",
   "version": "0.1.0",
   "description": "JavaScript Workflow Project",
-  "main": "index.js",
+  "license": "MIT",
+  "private": false,
   "repository": "git@github.com:svanzoest/js-workflow-project.git",
   "homepage": "https://svanzoest.github.io/js-workflow-project/",
   "author": "Sander van Zoest <sander@sddevops.org>",
-  "license": "MIT",
-  "private": false,
+  "main": "index.js",
   "scripts": {
-    "start": "mdx-deck slides/deck.js",
     "build": "mdx-deck build slides/deck.js",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "format:pkg": "format-package -w",
+    "format:pretty": "prettier --write **/*.{mdx,js}",
+    "start": "mdx-deck slides/deck.js"
   },
+  "prettier": {},
   "dependencies": {},
   "devDependencies": {
+    "format-package": "^4.5.1",
     "gh-pages": "^2.0.1",
-    "mdx-deck": "^2.3.2"
+    "mdx-deck": "^2.3.2",
+    "prettier": "1.18.2"
   }
 }
