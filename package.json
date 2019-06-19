@@ -15,11 +15,28 @@
     "format:pretty": "prettier --write **/*.{mdx,js}",
     "start": "mdx-deck slides/deck.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md,mdx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "package.json": [
+      "format-package -w",
+      "git add"
+    ]
+  },
   "prettier": {},
   "dependencies": {},
   "devDependencies": {
     "format-package": "^4.5.1",
     "gh-pages": "^2.0.1",
+    "husky": "^2.4.1",
+    "lint-staged": ">=8",
     "mdx-deck": "^2.3.2",
     "prettier": "1.18.2"
   }
