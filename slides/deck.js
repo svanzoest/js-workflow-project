@@ -1,7 +1,7 @@
-import dark from "@mdx-deck/themes/dark";
-import highlight from "@mdx-deck/themes/syntax-highlighter";
+import future from "@mdx-deck/themes/future";
+import highlight from '@mdx-deck/themes/syntax-highlighter-prism'
 
-export const themes = [dark, highlight];
+export const themes = [future, highlight];
 
 import { slides as begin } from "./begin.mdx";
 import { slides as ide } from "./ide.mdx";

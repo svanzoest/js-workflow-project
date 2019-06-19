@@ -858,10 +858,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
   integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
 
-"@mdx-deck/components@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/components/-/components-2.3.2.tgz#1c51b4cf905d098b75e845b1431c6a2719a70c84"
-  integrity sha512-Q1hZMVGYsBSfsNuDhxn8POjoiUIiB1xO8kHQWoicY+1P0BoV0rV9xBPBdEQNHmPRBnrMLpHPXjxw1gPxlUlf+g==
+"@mdx-deck/components@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/components/-/components-2.4.0.tgz#9bc6f1c74f9d97197f11a6d96a669da465affca2"
+  integrity sha512-h17zqj4vqZRI0sz0K8o4ltcG2rB5R2TlNJ12stW1zh/mn3C/K+QBdOZnjoV8h6a4jinVoHwGHpiSq2uZsw9XSA==
   dependencies:
     "@emotion/core" "^10.0.7"
     "@emotion/styled" "^10.0.7"
@@ -873,52 +873,52 @@
     react-swipeable "^5.0.1"
     resize-observer-polyfill "^1.5.1"
 
-"@mdx-deck/layouts@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/layouts/-/layouts-2.3.2.tgz#e85240602ae5e2198abbbfce54523a332b6c8954"
-  integrity sha512-+8vXKmKzijQIW+wW7C9LmMnltnEmq2/AUTTX0xfgwEJyYMz3892u/T3vIzVQQL6ndQgcQ6/PMnd24/l5bifeeA==
+"@mdx-deck/layouts@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/layouts/-/layouts-2.4.0.tgz#56b186698dd3a21aa45623545e53e70656e6fd7d"
+  integrity sha512-Zolf1e4w0DTKdZjQoZloTcRFCCO2RdRt8EQQO3L9t+8Ic0WlDWlUI5/F2y2uL1ayc7avS739AWkz7y1O6l91nQ==
   dependencies:
     "@emotion/core" "^10.0.7"
     "@emotion/styled" "^10.0.7"
     styled-system "^4.0.1"
 
-"@mdx-deck/loader@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/loader/-/loader-2.3.2.tgz#cfd83d5fedec8411029eedddffcd6da815c96029"
-  integrity sha512-IyIm/aXY4b+bK1Ccb0UV5H9Wk5moGH7EKqMSivuc7dlTw4YeZyHoupY3V0lBbWxK63VfNhEU/yrdp1bU3qEVSw==
+"@mdx-deck/loader@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/loader/-/loader-2.4.0.tgz#4756a884d0351a87f07d33ea05425dc3f6a334f7"
+  integrity sha512-v0N/g6oi9XGltep4U1ZXUVb4WF7hqJ+HKqN6kjA2J66Vgr985waruYNIKwbssYdpkePn6WIApA6P79bEgATEBg==
   dependencies:
-    "@mdx-deck/mdx-plugin" "^2.3.2"
+    "@mdx-deck/mdx-plugin" "^2.4.0"
     "@mdx-js/mdx" "^1.0.1"
     loader-utils "^1.2.3"
 
-"@mdx-deck/mdx-plugin@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/mdx-plugin/-/mdx-plugin-2.3.2.tgz#40e5b117e10bc02d30cd11b26a1bcd71c6fc9038"
-  integrity sha512-v5BQQp1dmu/gMpvDhwwF7NXlXoY1fcJ51gSQEzvdvYwbx9H4EuniZ0E3nnglAq94GwLoue1nBPjVoryobr/Gjg==
+"@mdx-deck/mdx-plugin@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/mdx-plugin/-/mdx-plugin-2.4.0.tgz#046eb4b9b2e91df34ccbf749ef8f0dd43ed666f3"
+  integrity sha512-ISsKdXuMBeJ6/lYiZ9Ae9dLT3lUrR23y9VeInRqOeotJb3ed5uWvbBgesoDNkHMpyrxL/eV3JXHMwqWbrURUhQ==
   dependencies:
     "@mdx-js/mdx" "^1.0.1"
     unist-util-is "^2.1.2"
     unist-util-visit "^1.4.0"
 
-"@mdx-deck/themes@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/themes/-/themes-2.3.2.tgz#9044363c2f2dba5b6514d7ae4fd884211758cdba"
-  integrity sha512-OHf3lx7cRfY2Nn6p/Lx4tj6kfPKb4UroqpMrdKLWf33l90zNNSMa7FCKMjsSL77p4A1/cIaw1/8AJv6ypX0BBQ==
+"@mdx-deck/themes@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/themes/-/themes-2.4.0.tgz#d86a9b6daf79b877fbe56a705a794896c97155b8"
+  integrity sha512-+Vpi/vV0T48qZ9bfXmQlvCCrq59f7S5eVBA5V0qy2llILxOPwocrJeK7iwfQIfY7C1rr5ooiubZSV/FCgWIa+Q==
   dependencies:
     lodash.merge "^4.6.1"
     react-syntax-highlighter "^10.1.3"
 
-"@mdx-deck/webpack-html-plugin@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/webpack-html-plugin/-/webpack-html-plugin-2.3.2.tgz#7a44691475a23789be329f760d4f9cdc1ae394c2"
-  integrity sha512-rUqALomA0L/XwmkmAXEM8AQw1xCkSTCfspu32yQPgMRU9FiSRwPDHdgGeUfvu7vmeBNbjB0ppA9uRqe6EaW3gQ==
+"@mdx-deck/webpack-html-plugin@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/webpack-html-plugin/-/webpack-html-plugin-2.4.0.tgz#41bd61359d8fb0050c03814856608c4726d066b6"
+  integrity sha512-CjzbZNAZM59lGlMr0HCpLBpOLYEBESBhgQJuOFV8QZh6TGT7QPPJFq5a+Gmefr+PO/dbsO4HATyg8cTJEjQpqg==
   dependencies:
     webpack-sources "^1.3.0"
 
 "@mdx-js/mdx@^1.0.1":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.0.20.tgz#422e15bfa5ca6459402783fb57e8b5d5d37a719f"
-  integrity sha512-TSiHGyYBOwqKgDane9N/dB3VvpsmU7zZunJAUBL4QEcWcpd5wOzSb9vPoWGiOMmIdgFArm24QkTPFUVOgvKHAQ==
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.0.21.tgz#028a7975fff026222f7ace19c8c130290c649025"
+  integrity sha512-B+n3PvrtdUcaCgDmWFaBf4n/zsls5hoyNPkWe2CzUx3ggR0SoD4UqCQR7iIZZ//fUjAwFODGf+2H0aJ3tIlB7w==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.2.0"
@@ -928,7 +928,7 @@
     hast-util-raw "^5.0.0"
     lodash.uniq "^4.5.0"
     mdast-util-to-hast "^4.0.0"
-    remark-mdx "^1.0.20"
+    remark-mdx "^1.0.21"
     remark-parse "^6.0.0"
     remark-squeeze-paragraphs "^3.0.1"
     to-style "^1.3.3"
@@ -937,9 +937,9 @@
     unist-util-visit "^1.3.0"
 
 "@mdx-js/react@^1.0.1":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.0.20.tgz#6af2191dee50ad659c328628f0e4dba86763ca42"
-  integrity sha512-gU/sGs2Yo0fuztSJeUqzHutQWPBXEO4vywyFT+pHPFW+BRAcwuaf3ub03HogJasMnE0S2kYt6ValwCGxViHIEA==
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-1.0.21.tgz#fc569b86d19f426774591fa401d999ddf6ea5948"
+  integrity sha512-+7H1UfIytxKN/nSdojCRzUM/ZeQ6/EUg8F9bnY2NnPGuF+67cug6vZBAx9famtAey0Ms0dr2QAuCOd8k3SkhJg==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -967,13 +967,13 @@
 
 "@types/events@*":
   version "3.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
-  integrity sha1-KGLz9Yqaf3w+eNefEw3U1xwlwqc=
+  resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
+  integrity sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
 
 "@types/glob@^7.1.1":
   version "7.1.1"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/@types/glob/-/glob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
-  integrity sha1-qlmhxuP7xCHgfM0xqUTDDrpSFXU=
+  resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
+  integrity sha512-1Bh06cbWJUHMC97acuD6UMG29nMt0Aqz1vF3guLfG+kHHJhy3AyohZFFxYk2f7Q1SQIrNwvncxAE0N/9s70F2w==
   dependencies:
     "@types/events" "*"
     "@types/minimatch" "*"
@@ -981,8 +981,8 @@
 
 "@types/minimatch@*":
   version "3.0.3"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
-  integrity sha1-PcoOPzOyAPx9ETnAzZbBJoyt/Z0=
+  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
+  integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
   version "12.0.8"
@@ -1494,7 +1494,7 @@ binary-extensions@^1.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.13.1.tgz#598afe54755b2868a5330d2aff9d4ebb53209b65"
   integrity sha512-Un7MIEDdUC5gNpcGDV97op1Ywk748MpHcFTHoYs6qnj1Z3j7I53VG3nwZhKzoBZmbdRNnb6WRdFlwl7tSDuZGw==
 
-bluebird@^3.5.3:
+bluebird@^3.5.5:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
   integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
@@ -1602,12 +1602,12 @@ browserslist@4.4.1:
     node-releases "^1.1.3"
 
 browserslist@^4.6.0, browserslist@^4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.6.2.tgz#574c665950915c2ac73a4594b8537a9eba26203f"
-  integrity sha512-2neU/V0giQy9h3XMPwLhEY3+Ao0uHSwHvU8Q1Ea6AgLVL1sXbX3dzPrJ8NWe5Hi4PoTkCYXOtVR9rfRLI0J/8Q==
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.6.3.tgz#0530cbc6ab0c1f3fc8c819c72377ba55cf647f05"
+  integrity sha512-CNBqTCq22RKM8wKJNowcqihHJ4SkI8CGeK7KOR9tPboXUuS5Zk5lQgzzTbs4oxD8x+6HUshZUa2OyNI9lR93bQ==
   dependencies:
-    caniuse-lite "^1.0.30000974"
-    electron-to-chromium "^1.3.150"
+    caniuse-lite "^1.0.30000975"
+    electron-to-chromium "^1.3.164"
     node-releases "^1.1.23"
 
 buffer-from@^1.0.0:
@@ -1635,21 +1635,21 @@ builtin-status-codes@^3.0.0:
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
 cacache@^11.3.2:
-  version "11.3.2"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-11.3.2.tgz#2d81e308e3d258ca38125b676b98b2ac9ce69bfa"
-  integrity sha512-E0zP4EPGDOaT2chM08Als91eYnf8Z+eH1awwwVsngUmgppfM5jjJ8l3z5vO5p5w/I3LsiXawb1sW0VY65pQABg==
+  version "11.3.3"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-11.3.3.tgz#8bd29df8c6a718a6ebd2d010da4d7972ae3bbadc"
+  integrity sha512-p8WcneCytvzPxhDvYp31PD039vi77I12W+/KfR9S8AZbaiARFBCpsPJS+9uhWfeBfeAtW7o/4vt3MUqLkbY6nA==
   dependencies:
-    bluebird "^3.5.3"
+    bluebird "^3.5.5"
     chownr "^1.1.1"
     figgy-pudding "^3.5.1"
-    glob "^7.1.3"
+    glob "^7.1.4"
     graceful-fs "^4.1.15"
     lru-cache "^5.1.1"
     mississippi "^3.0.0"
     mkdirp "^0.5.1"
     move-concurrently "^1.0.1"
     promise-inflight "^1.0.1"
-    rimraf "^2.6.2"
+    rimraf "^2.6.3"
     ssri "^6.0.1"
     unique-filename "^1.1.1"
     y18n "^4.0.0"
@@ -1720,10 +1720,10 @@ camelcase@^5.0.0, camelcase@^5.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-caniuse-lite@^1.0.30000929, caniuse-lite@^1.0.30000974:
-  version "1.0.30000974"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000974.tgz#b7afe14ee004e97ce6dc73e3f878290a12928ad8"
-  integrity sha512-xc3rkNS/Zc3CmpMKuczWEdY2sZgx09BkAxfvkxlAEBTqcMHeL8QnPqhKse+5sRTi3nrw2pJwToD2WvKn1Uhvww==
+caniuse-lite@^1.0.30000929, caniuse-lite@^1.0.30000975:
+  version "1.0.30000975"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000975.tgz#d4e7131391dddcf2838999d3ce75065f65f1cdfc"
+  integrity sha512-ZsXA9YWQX6ATu5MNg+Vx/cMQ+hM6vBBSqDeJs8ruk9z0ky4yIHML15MoxcFt088ST2uyjgqyUGRJButkptWf0w==
 
 ccount@^1.0.3:
   version "1.0.4"
@@ -1871,8 +1871,8 @@ clipboard@^2.0.0:
 
 cliui@^5.0.0:
   version "5.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/cliui/-/cliui-5.0.0.tgz#deefcfdb2e800784aa34f46fa08e06851c7bbbc5"
-  integrity sha1-3u/P2y6AB4SqNPRvoI4GhRx7u8U=
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-5.0.0.tgz#deefcfdb2e800784aa34f46fa08e06851c7bbbc5"
+  integrity sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA==
   dependencies:
     string-width "^3.1.0"
     strip-ansi "^5.2.0"
@@ -1959,9 +1959,9 @@ connect@^3.6.6:
     utils-merge "1.0.1"
 
 consola@^2.6.0:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-2.7.1.tgz#3f7f7c53eb44362240c3aee41b9bb2641d5ca32e"
-  integrity sha512-u7JYs+HnMbZPD2cEuS1XHsLeqtazA0kd5lAk8r8DnnGdgNhOdb7DSubJ+QLdQkbtpmmxgp7gs8Ug44sCyY4FCQ==
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-2.9.0.tgz#57760e3a65a53ec27337f4add31505802d902278"
+  integrity sha512-34Iue+LRcWbndFIfZc5boNizWlsrRjqIBJZTe591vImgbnq7nx2EzlrLtANj9TH2Fxm7puFJBJAOk5BhvZOddQ==
 
 console-browserify@^1.1.0:
   version "1.1.0"
@@ -1990,8 +1990,8 @@ constants-browserify@^1.0.0:
 
 convert-hrtime@^3.0.0:
   version "3.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/convert-hrtime/-/convert-hrtime-3.0.0.tgz#62c7593f5809ca10be8da858a6d2f702bcda00aa"
-  integrity sha1-YsdZP1gJyhC+jahYptL3ArzaAKo=
+  resolved "https://registry.yarnpkg.com/convert-hrtime/-/convert-hrtime-3.0.0.tgz#62c7593f5809ca10be8da858a6d2f702bcda00aa"
+  integrity sha512-7V+KqSvMiHp8yWDuwfww06XleMWVVB9b9tURBx+G7UTADuo5hYPuowKloz4OzOqbPezxgo+fdQ1522WzPG4OeA==
 
 convert-source-map@^1.1.0, convert-source-map@^1.5.0:
   version "1.6.0"
@@ -2320,8 +2320,8 @@ dir-glob@2.0.0:
 
 dir-glob@^2.2.2:
   version "2.2.2"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/dir-glob/-/dir-glob-2.2.2.tgz#fa09f0694153c8918b18ba0deafae94769fc50c4"
-  integrity sha1-+gnwaUFTyJGLGLoN6vrpR2n8UMQ=
+  resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-2.2.2.tgz#fa09f0694153c8918b18ba0deafae94769fc50c4"
+  integrity sha512-f9LBi5QWzIW3I6e//uxZoLBlUt9kcp66qo0sSCxL6YZKc75R1c4MFCoe/LaZiBGmgujvQdxc5Bn3QhfyvK5Hsw==
   dependencies:
     path-type "^3.0.0"
 
@@ -2357,10 +2357,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.3.103, electron-to-chromium@^1.3.150:
-  version "1.3.162"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.162.tgz#e006e3a2aeebaf942064a16b24c6dfc864510de1"
-  integrity sha512-/cCwFlLV0lImvAfNsJpEVIZFhJBoutb7L0AHd56K4h8McUqpdkbBvAbMnY/mfNKnCqkX6GZVvQc+BVod4t2EMw==
+electron-to-chromium@^1.3.103, electron-to-chromium@^1.3.164:
+  version "1.3.165"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.165.tgz#51864c9e3c9bd9e1c020b9493fddcc0f49888e3a"
+  integrity sha512-iIS8axR524EAnvUtWUNnREnYjQrS0zUvutIKYgTVuN3MzcjrV31EuJYKw7DGOtFO9DQw+JiXeaVDPQWMskG1wQ==
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -2541,8 +2541,8 @@ evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
 
 execa@^1.0.0:
   version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/execa/-/execa-1.0.0.tgz#c6236a5bb4df6d6f15e88e7f017798216749ddd8"
-  integrity sha1-xiNqW7TfbW8V6I5/AXeYIWdJ3dg=
+  resolved "https://registry.yarnpkg.com/execa/-/execa-1.0.0.tgz#c6236a5bb4df6d6f15e88e7f017798216749ddd8"
+  integrity sha512-adbxcyWV46qiHyvSp50TKt05tB4tK3HcmF7/nxfAdhnox83seTDbwnaqKO4sXRy7roHAIFqJP/Rw/AuEbX61LA==
   dependencies:
     cross-spawn "^6.0.0"
     get-stream "^4.0.0"
@@ -2782,8 +2782,8 @@ fork-ts-checker-webpack-plugin@1.0.0-alpha.6:
 
 format-package@^4.5.1:
   version "4.5.1"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/format-package/-/format-package-4.5.1.tgz#c154ab56accf22ff6fe167facac8fe843cbe649e"
-  integrity sha1-wVSrVqzPIv9v4Wf6ysj+hDy+ZJ4=
+  resolved "https://registry.yarnpkg.com/format-package/-/format-package-4.5.1.tgz#c154ab56accf22ff6fe167facac8fe843cbe649e"
+  integrity sha512-759ItEtnjYCL4Zv9ON3eLihzzhW/aI4uUDWL1BdZ+5OndZL1xQki8dyRtTWmoEDUTSenrXeUz8LG2YIGFLEqsw==
   dependencies:
     chalk "^2.4.2"
     convert-hrtime "^3.0.0"
@@ -2885,13 +2885,13 @@ gauge@~2.7.3:
 
 get-caller-file@^2.0.1:
   version "2.0.5"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
-  integrity sha1-T5RBKoLbMvNuOwuXQfipf+sDH34=
+  resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
+  integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
 get-stream@^4.0.0:
   version "4.1.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/get-stream/-/get-stream-4.1.0.tgz#c1b255575f3dc21d59bfc79cd3d2b46b1c3a54b5"
-  integrity sha1-wbJVV189wh1Zv8ec09K0axw6VLU=
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-4.1.0.tgz#c1b255575f3dc21d59bfc79cd3d2b46b1c3a54b5"
+  integrity sha512-GMat4EJ5161kIy2HevLlr4luNjBgvmj413KaQA7jt4V8B4RDsfpHk7WQ9GVqfYyyx8OS/L66Kox+rJRNklLK7w==
   dependencies:
     pump "^3.0.0"
 
@@ -2927,7 +2927,7 @@ glob-to-regexp@^0.3.0:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
   integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
 
-glob@^7.0.3, glob@^7.1.2, glob@^7.1.3:
+glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   integrity sha512-hkLPepehmnKk41pUGm3sYxoFs/umurYfYJCerbXEyFIWcAzvpipAgVkBqqT9RBKMGjnq6kMuyYwha6csxbiM1A==
@@ -2986,8 +2986,8 @@ globby@^6.1.0:
 
 globby@^9.2.0:
   version "9.2.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/globby/-/globby-9.2.0.tgz#fd029a706c703d29bdd170f4b6db3a3f7a7cb63d"
-  integrity sha1-/QKacGxwPSm90XD0tts6P3p8tj0=
+  resolved "https://registry.yarnpkg.com/globby/-/globby-9.2.0.tgz#fd029a706c703d29bdd170f4b6db3a3f7a7cb63d"
+  integrity sha512-ollPHROa5mcxDEkwg6bPt3QbEf4pDQSNtd6JPL1YvOvAo/7/0VAm9TccUeoTmarjPw4pfUthSCqcyfNB1I3ZSg==
   dependencies:
     "@types/glob" "^7.1.1"
     array-union "^1.0.2"
@@ -3276,8 +3276,8 @@ ignore@^3.3.5:
 
 ignore@^4.0.3:
   version "4.0.6"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
-  integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
+  integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
 immer@1.10.0:
   version "1.10.0"
@@ -3358,8 +3358,8 @@ invariant@^2.2.2, invariant@^2.2.3:
 
 invert-kv@^2.0.0:
   version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
-  integrity sha1-c5P1r6Weyf9fZ6J2INEcIm4+7AI=
+  resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
+  integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
 
 is-accessor-descriptor@^0.1.6:
   version "0.1.6"
@@ -3703,8 +3703,8 @@ kind-of@^6.0.0, kind-of@^6.0.2:
 
 lcid@^2.0.0:
   version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/lcid/-/lcid-2.0.0.tgz#6ef5d2df60e52f82eb228a4c373e8d1f397253cf"
-  integrity sha1-bvXS32DlL4LrIopMNz6NHzlyU88=
+  resolved "https://registry.yarnpkg.com/lcid/-/lcid-2.0.0.tgz#6ef5d2df60e52f82eb228a4c373e8d1f397253cf"
+  integrity sha512-avPEb8P8EGnwXKClwsNUgryVjllcRqtMYa49NTsbQagYuT1DcXnl1915oxWjoyGrXR6zH/Y0Zc96xWsPcoDKeA==
   dependencies:
     invert-kv "^2.0.0"
 
@@ -3851,8 +3851,8 @@ mamacro@^0.0.3:
 
 map-age-cleaner@^0.1.1:
   version "0.1.3"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/map-age-cleaner/-/map-age-cleaner-0.1.3.tgz#7d583a7306434c055fe474b0f45078e6e1b4b92a"
-  integrity sha1-fVg6cwZDTAVf5HSw9FB45uG0uSo=
+  resolved "https://registry.yarnpkg.com/map-age-cleaner/-/map-age-cleaner-0.1.3.tgz#7d583a7306434c055fe474b0f45078e6e1b4b92a"
+  integrity sha512-bJzx6nMoP6PDLPBFmg7+xRKeFZvFboMrGlxmNj9ClvX53KrmvM5bXFXEWjbz4cz1AFn+jWJ9z/DJSz7hrs0w3w==
   dependencies:
     p-defer "^1.0.0"
 
@@ -3929,9 +3929,9 @@ mdurl@^1.0.1:
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
 mdx-deck@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/mdx-deck/-/mdx-deck-2.3.2.tgz#4f9826d6169dc13d02b80572176e84ab64f86580"
-  integrity sha512-x67SPzz8EoJWkB1HJoKB5WRkvERdHeJM3tWnool6FLp5LkuHuo3+Smu1i4xUIxW+xexLjwbfJqGDRvt1GS0TyQ==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/mdx-deck/-/mdx-deck-2.4.0.tgz#053e65d6cd97b05fc031ae5cbca565bcd3db10d7"
+  integrity sha512-bIA/hZG7bi7pgHaZ+RqflXfsIElf7OHtb8CWQqo7Xxmy2YfY+7WhtbvX9leCSaQZ9RjN5mMs2I7yVj6CIcdAgw==
   dependencies:
     "@babel/core" "^7.3.4"
     "@babel/plugin-proposal-class-properties" "^7.3.4"
@@ -3943,11 +3943,11 @@ mdx-deck@^2.3.2:
     "@emotion/babel-preset-css-prop" "^10.0.7"
     "@emotion/core" "^10.0.7"
     "@emotion/styled" "^10.0.7"
-    "@mdx-deck/components" "^2.3.2"
-    "@mdx-deck/layouts" "^2.3.2"
-    "@mdx-deck/loader" "^2.3.2"
-    "@mdx-deck/themes" "^2.3.2"
-    "@mdx-deck/webpack-html-plugin" "^2.3.2"
+    "@mdx-deck/components" "^2.4.0"
+    "@mdx-deck/layouts" "^2.4.0"
+    "@mdx-deck/loader" "^2.4.0"
+    "@mdx-deck/themes" "^2.4.0"
+    "@mdx-deck/webpack-html-plugin" "^2.4.0"
     "@mdx-js/mdx" "^1.0.1"
     "@mdx-js/react" "^1.0.1"
     babel-loader "^8.0.5"
@@ -3977,8 +3977,8 @@ mdx-deck@^2.3.2:
 
 mem@^4.0.0:
   version "4.3.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/mem/-/mem-4.3.0.tgz#461af497bc4ae09608cdb2e60eefb69bff744178"
-  integrity sha1-Rhr0l7xK4JYIzbLmDu+2m/90QXg=
+  resolved "https://registry.yarnpkg.com/mem/-/mem-4.3.0.tgz#461af497bc4ae09608cdb2e60eefb69bff744178"
+  integrity sha512-qX2bG48pTqYRVmDB37rn/6PT7LcR8T7oAX3bf99u1Tt1nzxYfxkgqDwUwolPlXweM0XzBOBFzSx4kfp7KP1s/w==
   dependencies:
     map-age-cleaner "^0.1.1"
     mimic-fn "^2.0.0"
@@ -4063,8 +4063,8 @@ mimic-fn@^1.0.0:
 
 mimic-fn@^2.0.0:
   version "2.1.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
-  integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
+  resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
+  integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
 mini-css-extract-plugin@^0.6.0:
   version "0.6.0"
@@ -4373,7 +4373,7 @@ npm-packlist@^1.1.6:
 
 npm-run-path@^2.0.0:
   version "2.0.2"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
+  resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
   integrity sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=
   dependencies:
     path-key "^2.0.0"
@@ -4483,8 +4483,8 @@ os-homedir@^1.0.0:
 
 os-locale@^3.1.0:
   version "3.1.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/os-locale/-/os-locale-3.1.0.tgz#a802a6ee17f24c10483ab9935719cef4ed16bf1a"
-  integrity sha1-qAKm7hfyTBBIOrmTVxnO9O0Wvxo=
+  resolved "https://registry.yarnpkg.com/os-locale/-/os-locale-3.1.0.tgz#a802a6ee17f24c10483ab9935719cef4ed16bf1a"
+  integrity sha512-Z8l3R4wYWM40/52Z+S265okfFj8Kt2cC2MKY+xNi3kFs+XGI7WXu/I309QQQYbRW4ijiZ+yxs9pqEhJh0DqW3Q==
   dependencies:
     execa "^1.0.0"
     lcid "^2.0.0"
@@ -4505,18 +4505,18 @@ osenv@^0.1.4:
 
 p-defer@^1.0.0:
   version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/p-defer/-/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
+  resolved "https://registry.yarnpkg.com/p-defer/-/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
   integrity sha1-n26xgvbJqozXQwBKfU+WsZaw+ww=
 
 p-finally@^1.0.0:
   version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
+  resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
 
 p-is-promise@^2.0.0:
   version "2.1.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/p-is-promise/-/p-is-promise-2.1.0.tgz#918cebaea248a62cf7ffab8e3bca8c5f882fc42e"
-  integrity sha1-kYzrrqJIpiz3/6uOO8qMX4gvxC4=
+  resolved "https://registry.yarnpkg.com/p-is-promise/-/p-is-promise-2.1.0.tgz#918cebaea248a62cf7ffab8e3bca8c5f882fc42e"
+  integrity sha512-Y3W0wlRPK8ZMRbNq97l4M5otioeA5lm1z7bkNkxCka8HSPjR0xRWmpCmc9utiaLP9Jb1eD8BgeIxTW4AIF45Pg==
 
 p-limit@^1.1.0:
   version "1.3.0"
@@ -4808,8 +4808,8 @@ prepend-http@^2.0.0:
 
 prettier@1.18.2:
   version "1.18.2"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
-  integrity sha1-aCPnxZAAF7S9Os9G/prEtNe9qeo=
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
+  integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
 
 pretty-time@^1.1.0:
   version "1.1.0"
@@ -5047,9 +5047,9 @@ react-lifecycles-compat@^3.0.4:
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
 react-swipeable@^5.0.1:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-5.2.3.tgz#392d6cba328090d10fcb25a06047f5ad808f7e6c"
-  integrity sha512-J92RJNIZ7wE5czNWtVUTnTTOdgsnWXcj5fcKiEhf7ZU5JYSh5wOFosKWu8FyTFa6FXwmHKMzhaKUC/p9L2n2Lw==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-5.3.0.tgz#861bcecab2d5ff462e5737b1a20da2bfe35d8b21"
+  integrity sha512-mOfRfPxbcfl0jC/3DHSYWRkTElr8aU+ZVc4qv+VOhOQfw8+UM7Mhlky+1YhpRQ/5F9NRR36NZHhHP0kC1yEjGQ==
   dependencies:
     prop-types "^15.6.2"
 
@@ -5206,10 +5206,10 @@ remark-emoji@^2.0.2:
     node-emoji "^1.8.1"
     unist-util-visit "^1.4.0"
 
-remark-mdx@^1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-1.0.20.tgz#580e57c035bd1658beeacffc30f81ca56e8447e4"
-  integrity sha512-yUDI87lzeYsTL3LyArD2DWxzYMxdJuJuvVAjteWcJQvY6ZgYNcVPnVzDXiD80SRQOf3/tXW5P2E/EsnBlNW8lw==
+remark-mdx@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-1.0.21.tgz#cf5a59ad68cce6c1f687953dcf504212fbd32555"
+  integrity sha512-paYs43yHPkxEuhyWXvRGJdupdurua1ttmGeu5GLqU/qc17BaZklCdNSEjCNXRa2LM0pOFRv0KVJigfA2vfaDEQ==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/helper-plugin-utils" "^7.0.0"
@@ -5276,13 +5276,13 @@ replace-ext@1.0.0:
 
 require-directory@^2.1.1:
   version "2.1.1"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
+  resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
 
 require-main-filename@^2.0.0:
   version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
-  integrity sha1-0LMp7MfMD2Fkn2IhW+aa9UqomJs=
+  resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
+  integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
 
 requires-port@^1.0.0:
   version "1.0.0"
@@ -5533,8 +5533,8 @@ slash@^1.0.0:
 
 slash@^2.0.0:
   version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
-  integrity sha1-3lUoUaF1nfOo8gZTVEL17E3eq0Q=
+  resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
+  integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
 snake-case@^2.1.0:
   version "2.1.0"
@@ -5601,8 +5601,8 @@ sort-keys@^2.0.0:
 
 sort-scripts@^1.0.0:
   version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/sort-scripts/-/sort-scripts-1.0.0.tgz#1753f8e281758e6084092bc19c624d185be08f5a"
-  integrity sha1-F1P44oF1jmCECSvBnGJNGFvgj1o=
+  resolved "https://registry.yarnpkg.com/sort-scripts/-/sort-scripts-1.0.0.tgz#1753f8e281758e6084092bc19c624d185be08f5a"
+  integrity sha512-HJXTX80L0IY48XKjTS2QUC1Lu0+4Ll3mmu0oFlZbXUzC1tb2mh/AHpPjckdkCGvIWNhNOBhPichdUhnbPi62mw==
 
 source-list-map@^2.0.0:
   version "2.0.1"
@@ -5835,7 +5835,7 @@ strip-bom@^3.0.0:
 
 strip-eof@^1.0.0:
   version "1.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
+  resolved "https://registry.yarnpkg.com/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
   integrity sha1-u0P/VZim6wXYm1n80SnJgzE2Br8=
 
 strip-indent@^2.0.0:
@@ -6526,7 +6526,7 @@ whatwg-fetch@>=0.10.0:
 
 which-module@^2.0.0:
   version "2.0.0"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
+  resolved "https://registry.yarnpkg.com/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
   integrity sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=
 
 which@^1.2.9, which@^1.3.1:
@@ -6601,16 +6601,16 @@ yargs-parser@^10.0.0:
 
 yargs-parser@^13.1.0:
   version "13.1.1"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/yargs-parser/-/yargs-parser-13.1.1.tgz#d26058532aa06d365fe091f6a1fc06b2f7e5eca0"
-  integrity sha1-0mBYUyqgbTZf4JH2ofwGsvfl7KA=
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.1.1.tgz#d26058532aa06d365fe091f6a1fc06b2f7e5eca0"
+  integrity sha512-oVAVsHz6uFrg3XQheFII8ESO2ssAf9luWuAd6Wexsu4F3OtIW0o8IribPXYrD4WC24LWtPrJlGy87y5udK+dxQ==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
 yargs@^13.2.4:
   version "13.2.4"
-  resolved "https://pkgs.dev.azure.com/switchcasegroup/_packaging/SwitchCase/npm/registry/yargs/-/yargs-13.2.4.tgz#0b562b794016eb9651b98bd37acf364aa5d6dc83"
-  integrity sha1-C1YreUAW65ZRuYvTes82SqXW3IM=
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.2.4.tgz#0b562b794016eb9651b98bd37acf364aa5d6dc83"
+  integrity sha512-HG/DWAJa1PAnHT9JAhNa8AbAv3FPaiLzioSjCcmuXXhP8MlpHO5vwls4g4j6n30Z74GVQj8Xa62dWVx1QCGklg==
   dependencies:
     cliui "^5.0.0"
     find-up "^3.0.0"
