@@ -50,6 +50,15 @@ let context = setupPolly({
 ```
 ---
 
+### puppeteer
+
+- headless browser
+- can be used to test extensions
+- generate rendering images, pdfs, etc.
+- like ruby webdriver
+- works with jest
+
+---
 ## jest-puppeteer
 
 ```javascript
@@ -66,6 +75,20 @@ describe(
 });
 
 ```
+
+---
+
+# jest-image-snapshot
+
+- compare jest snapshots but of binary images
+
+```javascript
+it('should demonstrate this matcher`s usage', () => {
+  ...
+  expect(image).toMatchImageSnapshot();
+});
+```
+
 ---
 # newman
 `package.json`
