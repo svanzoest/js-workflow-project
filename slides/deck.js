@@ -1,8 +1,8 @@
-import future from "@mdx-deck/themes/future";
+import mainTheme from "./theme";
 import highlight from '@mdx-deck/themes/syntax-highlighter-prism'
 import aspect from '@mdx-deck/themes/aspect'
 
-export const themes = [future, aspect, highlight];
+export const themes = [mainTheme, aspect, highlight];
 
 import { slides as begin } from "./begin.mdx";
 import { slides as ide } from "./ide.mdx";
