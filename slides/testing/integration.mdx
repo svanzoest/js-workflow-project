@@ -1,3 +1,81 @@
 ## Integration Testing
 
-- polly
+Tools
+
+- [polly](https://netflix.github.io/pollyjs) - Record, replay, and stub HTTP interactions.
+- [puppeteer](https://pptr.dev/) - Node library to control headless Chrome
+- [jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot) - Visual regression testing
+- [newman](https://github.com/postmanlabs/newman) - Postman cli runner
+
+These can work together
+
+---
+
+# polly
+
+- Records HAR output of your API requests.
+- Use as fixtures without having to manage fixtures by hand
+- Can be used in combination with Jest snapshots
+
+---
+
+##  setup-polly-jest
+
+```javascript
+import { Polly } from "@pollyjs/core";
+import { setupPolly } from "setup-polly-jest";
+import NodeHttpAdapter from "@pollyjs/adapter-node-http";
+import FSPersister from "@pollyjs/persister-fs";
+
+Polly.register(NodeHttpAdapter);
+Polly.register(FSPersister);
+
+```
+
+---
+
+## setup polly context 
+
+```javascript
+let context = setupPolly({
+  adapters: ["node-http"],
+  mode: "replay",
+  persister: "fs",
+  persisterOptions: {
+    fs: {
+      recordingsDir: "./test/__recordings__"
+    }
+  }
+});
+```
+---
+
+## jest-puppeteer
+
+```javascript
+describe(
+  'SPA', 
+  () => {
+    beforeAll(async () => {
+      await page.goto('http://localhost:5000')
+    }, timeout);
+
+    it('should have a react root element on page', async () => {
+      await expect(page).toMatchElement('#react-root')
+    });
+});
+
+```
+---
+# newman
+`package.json`
+```javascript
+{
+  "scripts": {
+    "test:integration": "newman run 
+           -d test/fixtures/integration/data.json 
+           -e test/envs/staging.json 
+           test/integration/*.postman_collection.json",
+  }
+}
+ ```
