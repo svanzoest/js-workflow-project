@@ -1,4 +1,4 @@
-import { Notes } from 'mdx-deck'
+import { Notes } from "mdx-deck";
 
 ## Packaging
 
@@ -6,17 +6,20 @@ import { Notes } from 'mdx-deck'
 - [nwb](https://github.com/insin/nwb) - create consumable react npm modules
 - [pkg](https://github.com/zeit/pkg) - Package your Node.js project into an executable
 
-----
+---
+
 ## CI tips
 
 A commit message with `[ci skip]` will be skipped.
 
 Ensure git version of dependencies get used
+
 ```bash
 yarn install --frozen-lockfile
 ```
 
 ---
+
 ## Bump version
 
 ```bash
@@ -26,6 +29,7 @@ git push --follow-tags origin HEAD:$BRANCH
 ```
 
 ---
+
 ## NPM Publish Package
 
 Use `@<organization>/<package>` for scope
@@ -39,5 +43,5 @@ yarn add @switchcase/prettier-config@alpha
 <Notes>
 
 `semver` npm package
-</Notes>
 
+</Notes>

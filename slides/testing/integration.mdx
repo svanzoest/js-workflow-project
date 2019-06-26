@@ -19,7 +19,7 @@ These can work together
 
 ---
 
-##  setup-polly-jest
+## setup-polly-jest
 
 ```javascript
 import { Polly } from "@pollyjs/core";
@@ -29,12 +29,11 @@ import FSPersister from "@pollyjs/persister-fs";
 
 Polly.register(NodeHttpAdapter);
 Polly.register(FSPersister);
-
 ```
 
 ---
 
-## setup polly context 
+## setup polly context
 
 ```javascript
 let context = setupPolly({
@@ -48,6 +47,7 @@ let context = setupPolly({
   }
 });
 ```
+
 ---
 
 ### puppeteer
@@ -59,21 +59,19 @@ let context = setupPolly({
 - works with jest
 
 ---
+
 ## jest-puppeteer
 
 ```javascript
-describe(
-  'SPA', 
-  () => {
-    beforeAll(async () => {
-      await page.goto('http://localhost:5000')
-    }, timeout);
+describe("SPA", () => {
+  beforeAll(async () => {
+    await page.goto("http://localhost:5000");
+  }, timeout);
 
-    it('should have a react root element on page', async () => {
-      await expect(page).toMatchElement('#react-root')
-    });
+  it("should have a react root element on page", async () => {
+    await expect(page).toMatchElement("#react-root");
+  });
 });
-
 ```
 
 ---
@@ -90,22 +88,26 @@ it('should demonstrate this matcher`s usage', () => {
 ```
 
 ---
+
 # newman
+
 `package.json`
+
 ```javascript
 {
   "scripts": {
-    "test:integration": "newman run 
-           -d test/fixtures/integration/data.json 
-           -e test/envs/staging.json 
+    "test:integration": "newman run
+           -d test/fixtures/integration/data.json
+           -e test/envs/staging.json
            test/integration/*.postman_collection.json",
   }
 }
- ```
+```
 
- ----
- Also See 
- 
- ## Testing library
+---
 
- https://testing-library.com/
+Also See
+
+## Testing library
+
+https://testing-library.com/

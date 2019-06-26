@@ -1,6 +1,6 @@
 import mainTheme from "./theme";
-import highlight from '@mdx-deck/themes/syntax-highlighter-prism'
-import aspect from '@mdx-deck/themes/aspect'
+import highlight from "@mdx-deck/themes/syntax-highlighter-prism";
+import aspect from "@mdx-deck/themes/aspect";
 
 export const themes = [mainTheme, aspect, highlight];
 
