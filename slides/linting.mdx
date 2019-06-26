@@ -1,21 +1,24 @@
 ## Linting
 
-Tools to help us focus on writing code and not worry about style.
+Tools to help you focus on writing code and nearly forget about style.
 
-- .editorconfig
-- prettier.io
-  - `lint-staged` with `husky` and `format-package`
-- eslint
+- [.editorconfig](https://editorconfig.org/)
+- [prettier](https://prettier.io/)
+- [eslint](https://eslint.org/)
+- [stylelint](https://stylelint.io/)
+
+They all work together
 
 ---
 
 ### .editorconfig
 
+Standard config across all editors
+
 ```ini
 # top-most EditorConfig file
 root = true
-
-# Unix-style newlines with a newline ending every file
+# Unix-style newlines
 [*]
 end_of_line = lf
 insert_final_newline = true
@@ -26,12 +29,18 @@ charset = utf-8
 
 ---
 
+import { Image } from "@mdx-deck/components";
+
 ### prettier
 
-Shared Config
+Focused on Code Formatting
 
-- on [github](https://github.com/SwitchCaseGroup/switchcase-prettier-config)
-- on [npm](https://www.npmjs.com/package/@switchcase/prettier-config)
+<Image
+  style={{ width: "800px", height: "250px" }}
+  src="./images/vscode-prettier.png"
+></Image>
+
+Shared Config on [github](https://github.com/SwitchCaseGroup/switchcase-prettier-config), [npm](https://www.npmjs.com/package/@switchcase/prettier-config)
 
 package.json
 
@@ -42,3 +51,18 @@ package.json
 ---
 
 ### eslint
+
+Focused on Code Quality
+
+- includes typescript support now
+- integrates with prettier
+
+---
+
+### stylelint
+
+Focused on Style such as CSS/SCSS/Less
+
+- invalid hex color
+- invalid CSS class usage
+- use 'em' instead of 'px'

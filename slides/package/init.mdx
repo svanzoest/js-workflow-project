@@ -1,3 +1,49 @@
-## Package Init
+## Yarn
 
-- yarn
+Manages dependencies and package definition
+
+- `init`
+- `add`/`upgrade`/`remove`/`outdated`
+- `install`
+- `pack`
+- `publish`
+- `audit`
+- `licenses`
+
+---
+
+import { Notes } from "mdx-deck";
+
+## Create package definition
+
+Create an initial package.json file
+
+- `yarn init`
+- `yarn create react-app <my-app>`
+
+<Notes>
+Running yarn create react-app will start by doing the same thing as 
+`yarn global add create-react-app`.
+
+Then, once the package installed, Yarn will run the executable located in the bin field of the newly installed package’s package.json, forwarding to it any remaining command line argument.
+
+</Notes>
+
+---
+
+## Add Dependencies
+
+- `yarn add [--dev] <package>`
+- `yarn install`
+
+---
+
+### Add standardized scripts
+
+- `start`
+- `build`
+- `lint`
+- `test`
+- `docs`
+
+`pre` and `post` prefix can be used for dependency calls

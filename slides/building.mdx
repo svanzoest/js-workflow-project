@@ -1,3 +1,36 @@
 ## Building
 
-- webpack/rollup/parcel
+Bundle into a digestable packages
+
+- allow for logical separation during development
+- minimize HTTP requests
+- process and inline fonts, CSS, images
+- treeshaking, code splitting
+- inline cache busting hashes
+- hot loading
+
+---
+
+### Bundling Options
+
+- [webpack](https://webpack.js.org/) - mostly for browser
+- [rollup](https://rollupjs.org/) - mostly for npm packages
+- [parcel](https://parceljs.org/) - minimal config
+
+---
+
+### Build Output
+
+`dist`
+
+Targets specific use cases
+
+- `AMD` - Asynchronous Module Definition (Browser)
+- `CommonJS` (Node.js)
+- `UMD` - Universal Module Definition (AMD+CommonJS)
+
+Minimum Language Features
+
+- `ES5`
+- `ES6` (ECMAScript 2015)
+- `ESNext` (upcoming ES, currently ES2019)
