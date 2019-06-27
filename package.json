@@ -27,7 +27,7 @@
       "{dist,.vscode}/**"
     ],
     "linters": {
-      "*.{css,json,js,jsx,md,mdx}, !package.json": [
+      "(*.{css,js,jsx,md,mdx}|!(package).json)": [
         "prettier --write",
         "git add"
       ],
