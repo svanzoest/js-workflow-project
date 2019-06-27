@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "build": "mdx-deck build slides/deck.js",
-    "postbuild": "echo 'js-workflow-project.sddevops.org' > dist/CNAME",
+    "postbuild": "cp -rp slides/images dist/ && echo 'js-workflow-project.sddevops.org' > dist/CNAME",
     "deploy": "gh-pages -d dist",
     "lint": "prettier --check **/*.{mdx,js}",
     "lint:fix": "prettier --write **/*.{mdx,js} && format-package -w",
