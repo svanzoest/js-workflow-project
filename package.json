@@ -9,6 +9,7 @@
   "author": "Sander van Zoest <sander@sddevops.org>",
   "main": "index.js",
   "scripts": {
+    "audit:critical": "yarn audit --registry=https://registry.npmjs.org/ --frozen-lockfile --level high --groups dependencies",
     "build": "mdx-deck build slides/deck.js",
     "postbuild": "cp -rp slides/images dist/ && echo 'js-workflow-project.sddevops.org' > dist/CNAME",
     "deploy": "gh-pages -d dist",
