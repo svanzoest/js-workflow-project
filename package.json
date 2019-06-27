@@ -12,8 +12,9 @@
     "build": "mdx-deck build slides/deck.js",
     "postbuild": "cp -rp slides/images dist/ && echo 'js-workflow-project.sddevops.org' > dist/CNAME",
     "deploy": "gh-pages -d dist",
-    "lint": "prettier --check **/*.{mdx,js}",
-    "lint:fix": "prettier --write **/*.{mdx,js} && format-package -w",
+    "lint": "yarn run pretty --check",
+    "lint:fix": "yarn run pretty --write && format-package -w",
+    "pretty": "prettier **/*.{css,json,js,jsx,md,mdx} !{dist,.vscode}/**",
     "start": "mdx-deck slides/deck.js"
   },
   "husky": {
@@ -22,14 +23,19 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md,mdx}": [
-      "prettier --write",
-      "git add"
+    "ignore": [
+      "{dist,.vscode}/**"
     ],
-    "package.json": [
-      "format-package -w",
-      "git add"
-    ]
+    "linters": {
+      "*.{css,json,js,jsx,md,mdx}, !package.json": [
+        "prettier --write",
+        "git add"
+      ],
+      "package.json": [
+        "format-package -w",
+        "git add"
+      ]
+    }
   },
   "prettier": {},
   "dependencies": {},
