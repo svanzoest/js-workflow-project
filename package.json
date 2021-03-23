@@ -21,12 +21,10 @@
   },
   "lint-staged": {
     "*.{js,jsx,css,json,md,mdx}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "package.json": [
-      "format-package -w",
-      "git add"
+      "format-package -w"
     ]
   },
   "prettier": {},
