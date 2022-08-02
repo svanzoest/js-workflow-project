@@ -27,5 +27,5 @@ export const slides = [
   ...integrationtesting,
   ...publishing,
   ...security,
-  ...end
+  ...end,
 ];

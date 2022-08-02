@@ -9,7 +9,7 @@ export default {
     textAlign: "left",
     whiteSpace: "pre",
     lineHeight: 1.5,
-    tabSize: 2
+    tabSize: 2,
   },
-  li: { fontSize: "40px" }
+  li: { fontSize: "40px" },
 };
